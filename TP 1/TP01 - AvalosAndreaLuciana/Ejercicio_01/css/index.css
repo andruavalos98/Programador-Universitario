@@ -1,0 +1,90 @@
+* {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 235, 205);
+}
+
+h1 {
+    background-color: rgb(255, 235, 205);
+    text-align: center;
+}
+
+nav {
+    background-color: orangered;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+a {
+    font-size: 17px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+/* nav li:hover,
+nav li:focus {
+    background-color: orange;
+} */
+
+nav li:hover {
+    background-color: orange;
+}
+
+#fotoDesarrollo {
+    width: 50%;
+    margin-right: 25px;
+    display: inline-block;
+    float: left;
+}
+
+#frontVsBack {
+    width: 70%;
+    float: left;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    margin: 10px;
+}
+
+#fullStack {
+    text-align: center;
+}
+
+
+/* #full {
+    width: 90%;
+    text-align: start;
+} */
+
+aside {
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    float: right;
+}
+
+h4 {
+    padding-bottom: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: orangered;
+}
+
+#fotoFacet {
+    display: block;
+    margin: 0 auto;
+}
