@@ -110,9 +110,24 @@ aside {
 
 footer {
     align-items: flex-end;
+    text-align: center;
 }
 
 #develop {
     display: block;
     margin: 0 auto;
+}
+
+#masInfo {
+    padding: 0;
+    font-weight: bold;
+}
+
+#masInfo:hover {
+    border-bottom: 0;
+}
+
+#copy {
+    margin-top: 1rem;
+    margin-bottom: 0;
 }
