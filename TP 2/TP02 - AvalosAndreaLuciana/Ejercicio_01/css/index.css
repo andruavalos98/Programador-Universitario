@@ -17,29 +17,29 @@ body {
 
 /* ----- nav ----- */
 
-nav {
+#nav {
     height: 3.3rem;
     display: flex;
     background-color: rgba(255, 255, 255, 0.425);
 }
 
-ul {
+#ul {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-li {
+.li {
     display: flex;
     list-style: none;
 }
 
-a {
+.a {
     padding: 1rem;
     text-decoration: none;
 }
 
-a:hover {
+.a:hover {
     border-bottom: 5px solid rgb(46, 31, 0);
     color: white;
 }
@@ -101,8 +101,45 @@ h4 {
 /* ----- Section aside ----- */
 
 aside {
-    text-align: center;
+    text-align: start;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#enlacesOficiales {
+    border-bottom: 1px solid black;
+    padding-left: 1rem;
+    padding-right: 35%;
+}
+
+#ulAside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0;
+}
+
+.aAside {
+    text-decoration: none;
+    width: 100%;
+    padding: 1rem;
+}
+
+.liAside {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin: 0.5rem 0.5rem;
+}
+
+.aAside:hover {
+    background-color: rgb(40, 127, 199);
+    padding-left: 1rem;
+    color: white;
+    font-weight: bold;
+    text-align: end;
 }
 
 
