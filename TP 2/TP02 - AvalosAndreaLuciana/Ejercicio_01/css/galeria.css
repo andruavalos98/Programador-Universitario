@@ -45,6 +45,18 @@ a:hover {
 }
 
 
+/* ----- Header ------ */
+
+header figure {
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
 /* ----- Main ------ */
 
 main section article {
@@ -59,10 +71,11 @@ main section article {
 main article figure {
     width: 20%;
     margin: 1vh;
+    text-align: center;
 }
 
 main article figure img {
-    width: 100%;
+    width: 60%;
 }
 
 figcaption {
