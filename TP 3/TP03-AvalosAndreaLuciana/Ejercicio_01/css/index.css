@@ -153,3 +153,68 @@ h3 {
     padding: 1rem;
     text-align: center;
 }
+
+
+/* DATOS */
+
+
+/* TABLA */
+
+table {
+    border: 1px solid black;
+    text-align: center;
+    margin: 2rem;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+#anime {
+    width: 50%;
+}
+
+
+/* MAIN */
+
+#mainDatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/* ASIDE */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* padding: 0.5rem; */
+    background-color: rgb(186, 146, 224);
+}
+
+.linksAside {
+    padding: 2rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.linksAside:hover {
+    border-bottom: 0;
+    background-color: blueviolet;
+}
+
+#listaAside {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+}
