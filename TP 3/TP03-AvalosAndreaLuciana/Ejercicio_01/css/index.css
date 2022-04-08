@@ -1,0 +1,155 @@
+/* INDEX */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.tamañoLetra {
+    font-size: 1.1rem;
+}
+
+
+/* ----- Header ----- */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logoContenedor {
+    width: 25%;
+}
+
+#logo {
+    width: 100%;
+}
+
+
+/* ----- nav ----- */
+
+nav {
+    background-color: rgb(186, 146, 224);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    padding: 0.3rem;
+}
+
+.elementoNav {
+    text-decoration: none;
+    padding: 1.2rem;
+    width: 100%;
+}
+
+a:hover {
+    color: white;
+    border-bottom: 5px solid rgb(108, 0, 122)
+}
+
+
+/* ----- main ------ */
+
+#mainIndex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.articulos {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#sinopsis {
+    padding: 1.5rem;
+    text-align: justify;
+}
+
+#contenedorFotoArticulo {
+    width: 40%;
+}
+
+#fotoArticulo {
+    width: 100%;
+}
+
+
+/* ----- Footer ------ */
+
+footer {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.contacto {
+    text-decoration: none;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.contacto:hover {
+    border-bottom: 0;
+    background-color: blueviolet;
+}
+
+
+/* REPARTO */
+
+#mainReparto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fotoPersonaje {
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.contenedorPersonaje {
+    background-color: rgb(200, 160, 238);
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 1rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.contenedorFoto {
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.infoPersonaje {
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+h3 {
+    background-color: blueviolet;
+    padding: 1rem;
+    text-align: center;
+}
