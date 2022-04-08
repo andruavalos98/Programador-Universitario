@@ -59,6 +59,22 @@ a:hover {
     border-bottom: 5px solid rgb(108, 0, 122)
 }
 
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+.acc {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.acc:hover {
+    border-bottom: 0;
+    color: black;
+    background-color: blueviolet;
+}
+
 
 /* ----- main ------ */
 
